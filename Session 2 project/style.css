@@ -1,0 +1,19 @@
+#exthead {
+    text-align: center;
+    background-color: aqua;
+    font-style: oblique;
+}
+
+#extparaone {
+    word-spacing: 5px;
+    color: rgb(255,138,0);
+}
+
+#extparatwo {
+    background-color: rgb(92,28,219);
+    color: rgb(255,255,255);
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
