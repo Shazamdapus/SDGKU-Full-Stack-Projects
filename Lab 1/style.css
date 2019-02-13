@@ -1,0 +1,33 @@
+h1 {
+    background-color: grey;
+    color: blue;
+    text-shadow: 3px teal;
+    scroll-behavior: smooth;
+    font-family: 'Oldtown', fantasy;
+    text-align: center;
+}
+
+#square {
+    background-color: black;
+    color: white;
+    border: 5px dashed red;
+    text-align: center;
+    
+}
+
+tr {
+    height: 60px;
+}
+
+td {
+    width: 50px;
+}
+
+#knight {
+    height: 150px;
+    width: 170px;
+}
+
+body {
+    background-color: purple;
+}
