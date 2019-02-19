@@ -1,0 +1,149 @@
+
+
+#register {
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    color: #fff;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 15px 50px;
+    width: 90%;
+    height: 50px;
+}
+
+#first {
+    font-family: OCR A Std, monospace;
+    color: orangered;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+
+#firstblank {
+    font-family: Chalkduster, fantasy;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 200px; 
+}
+
+#last {
+    font-family: OCR A Std, monospace;
+    color: orangered;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+
+#lastblank {
+    font-family: Chalkduster, fantasy;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 200px; 
+}
+
+#gamertag {
+    font-family: OCR A Std, monospace;
+    color: green;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+
+#gamertagblank {
+    font-family: Chalkduster, fantasy;
+    color: green;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 200px; 
+}
+
+#describe {
+    font-family: OCR A Std, monospace;
+    color: orangered;
+    font-size: 15px;
+}
+
+#describeblank {
+    font-family: Chalkduster, fantasy;
+    color: blue;
+    font-size: 15px;
+}
+
+#xbox {
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+}
+
+#welcome {
+    font-family: OCR A Std, monospace;
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#join {
+    font-family: OCR A Std, monospace;
+    color: orangered;
+    font-size: 15px;
+    text-align: left;
+}
+
+#submit {
+    font-family: OCR A Std, monospace;
+    color: orangered;
+    font-size: 15px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 2px;
+}
+
+#submit:hover {
+    font-family: OCR A Std, monospace;
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+#reset {
+    font-family: OCR A Std, monospace;
+    color: red;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+#reset:hover {
+    font-family: OCR A Std, monospace;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
