@@ -1,0 +1,76 @@
+
+
+
+.background {
+    background-image: url("wood.png");
+    margin: 0px;
+}
+
+.charName {
+    color: black;
+    text-decoration: darkred underline;
+    line-height: 1.1em;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.charInfo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.charImage {
+    width: 250px;
+    height: 225px;
+    margin-bottom: -21px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 350px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-image: url("flames.png");
+    border: solid black 5px;
+}
+
+.container {
+    border-top: 4px black solid;
+    background-image: url("stone.png");
+    width: 100%;
+    height: 138px;
+}
+
+.flip-card-back {
+    background-color: rgb(5, 53, 143);
+    color: white;
+    transform: rotateY(180deg);
+    border: 4px solid black;
+}
