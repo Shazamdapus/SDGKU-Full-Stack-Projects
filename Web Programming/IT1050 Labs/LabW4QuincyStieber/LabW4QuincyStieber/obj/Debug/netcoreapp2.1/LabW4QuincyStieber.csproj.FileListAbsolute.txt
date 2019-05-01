@@ -1,0 +1,11 @@
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/bin/Debug/netcoreapp2.1/LabW4QuincyStieber.deps.json
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/bin/Debug/netcoreapp2.1/LabW4QuincyStieber.runtimeconfig.json
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/bin/Debug/netcoreapp2.1/LabW4QuincyStieber.runtimeconfig.dev.json
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/bin/Debug/netcoreapp2.1/LabW4QuincyStieber.dll
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/bin/Debug/netcoreapp2.1/LabW4QuincyStieber.pdb
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/obj/Debug/netcoreapp2.1/LabW4QuincyStieber.csprojAssemblyReference.cache
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/obj/Debug/netcoreapp2.1/LabW4QuincyStieber.csproj.CoreCompileInputs.cache
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/obj/Debug/netcoreapp2.1/LabW4QuincyStieber.AssemblyInfoInputs.cache
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/obj/Debug/netcoreapp2.1/LabW4QuincyStieber.AssemblyInfo.cs
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/obj/Debug/netcoreapp2.1/LabW4QuincyStieber.dll
+/Users/quincystieber/Desktop/IT1050 Labs/LabW4QuincyStieber/LabW4QuincyStieber/obj/Debug/netcoreapp2.1/LabW4QuincyStieber.pdb

@@ -1,0 +1,19 @@
+Class: SuperHeroes
+
+Attributes:
+Name - String
+Power - String
+AlterEgo - String
+Alignment - String
+Weakness - String
+Age - Integer
+Gender - String
+Sidekicks - String
+SkillLevel - Integer
+HealthPoints - Integer
+
+Methods:
+Attack - Public String (String Target)
+Defense - Public String (String Target)
+PowerUp - Public Integer (Integer Amount, Boolean Boost)
+Heal -  Public Integer (Integer Amount, Integer Duration)
