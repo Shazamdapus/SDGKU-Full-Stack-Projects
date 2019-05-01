@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Battle Mode</title>
+    <link rel="stylesheet" href="battle.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body class="background">
+    <div id="page" class="uiBackground">
+        <div class="box">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" id="playerCard">
+                        <img src="warrior.png" class="playerImage">
+                        <div class="container">
+                            <h3 class="charName">Brother Quincy</h3>
+                            <p class="charInfo"><em>"For those who require my help, I will be a bright light.  For all those who oppose me, I will introduce them to the long dark."</em></p>
+                        </div>
+                    </div>
+                    <div class="flip-card-back" id="playerCardBack">
+                        <!-- render player name here -->
+                        <h3>Brother Quincy</h3>
+                        <p>Faithful Paladin</p>
+                        <p>Ability 1: Blessing Of The Father</p>
+                        <p> - Paladin asks his God to bless his weapons<br>
+                        with the strength to vanquish his foes.</p>
+                        <p>Ability 2: Touch of The Mother</p>
+                        <p> - Paladin prays to "The Mother" for her healing<br>
+                        touch.</p>
+                    </div>
+                </div>
+            </div>
+        <div id="footer">
+            <p>Render stat table here</p>
+            <table class="statTable" id="playerTable">
+                <tr>
+                    <td class="statTable" id="playerHealth">HP: 700</td>
+                    <td class="statTable" id="playerMana">Mana: 100</td>
+                </tr>
+                <tr>
+                    <td class="statTable" id="atkPower">Atk Power: 400</td>
+                    <td class="statTable" id="splAttack">Spl Attack: 300</td>
+                </tr>
+                <tr>
+                    <td class="statTable" id="defense">Defense: 350</td>
+                    <td class="statTable" id="actionPoints">AP: 2</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="section" id="battleFeed">
+            <div class="section" id="battleActions">
+                <h1 class="battleActions">This Is The Battle Feed: </h1>
+                <p class="playerAction" id="playerAction1"></p>
+                <p class="playerAction" id="playerAction2"></p>
+                <p class="titanAction" id="titanAction1"></p>
+                <p class="titanAction" id="titanAction2"></p>
+            </div>
+        </div>
+            <div class="footer" id="actionMenu">
+            <button type="button" class="startGame" onclick="startGame();">Start Your Adventure!</button>
+            <button type="button" class="hurtPlayer" onclick="hurtPlayer();">Hurt Player</button>
+            <button type="button" class="playerAttack" onclick="playerAttack();">Attack</button>
+            </div>   
+    </div>
+
+    <div class="box">
+        
+            <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" id="titanCard">
+                            <img src="gravetitan.png" class="titanImage">
+                        </div>
+                        <div class="flip-card-back" id="titanCardBack">
+                            <h3>Grave Titan</h3>
+                            <p>Considered by all to be the master of the undead.  One Grave Titan can raise any settlement with the help of his massive undead horde.</p>
+                            <p>Warning: Do not attempt to handle this menace alone.  It will lead to certain death. </p>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                    <p>Render stat table here</p>
+                    <table class="statTable" id="titanTable">
+                        <tr>
+                            <td class="statTable" id="titanHealth">HP: 3000</td>
+                            <td class="statTable" id="titanMana">Mana: 1000</td>
+                        </tr>
+                        <tr>
+                            <td class="statTable" id="atkPower">Atk Power: 700</td>
+                            <td class="statTable" id="splAttack">Spl Attack: 300</td>
+                        </tr>
+                        <tr>
+                            <td class="statTable" id="titanDefense">Defense: 350</td>
+                            <td class="statTable" id="titanPoints">AP: 1</td>
+                        </tr>
+                    </table>
+                </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="player.js"></script>
+    <script src="AI.js"></script>
+</body>
+</html>
